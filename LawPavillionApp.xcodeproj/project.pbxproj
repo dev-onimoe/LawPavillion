@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182EDADD28313EF800AB011A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EDADC28313EF800AB011A /* Constants.swift */; };
+		182EDADF2833700800AB011A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EDADE2833700800AB011A /* Reachability.swift */; };
 		1876A6DE282D0B4E0012A2F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876A6DD282D0B4E0012A2F4 /* AppDelegate.swift */; };
 		1876A6E0282D0B4F0012A2F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876A6DF282D0B4F0012A2F4 /* SceneDelegate.swift */; };
 		1876A6E2282D0B4F0012A2F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876A6E1282D0B4F0012A2F4 /* ViewController.swift */; };
@@ -16,6 +18,13 @@
 		1876A6F5282D0B500012A2F4 /* LawPavillionAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876A6F4282D0B500012A2F4 /* LawPavillionAppTests.swift */; };
 		1876A6FF282D0B510012A2F4 /* LawPavillionAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876A6FE282D0B510012A2F4 /* LawPavillionAppUITests.swift */; };
 		1876A701282D0B510012A2F4 /* LawPavillionAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876A700282D0B510012A2F4 /* LawPavillionAppUITestsLaunchTests.swift */; };
+		1876A711282D0C6C0012A2F4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876A710282D0C6C0012A2F4 /* Extensions.swift */; };
+		1876A713282D19DF0012A2F4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876A712282D19DF0012A2F4 /* HomeViewController.swift */; };
+		18E79D33282E7D49002A2B24 /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E79D32282E7D49002A2B24 /* ResultsTableViewCell.swift */; };
+		18E79D38282E8804002A2B24 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18E79D34282E8804002A2B24 /* Poppins-Bold.ttf */; };
+		18E79D39282E8804002A2B24 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18E79D35282E8804002A2B24 /* Poppins-SemiBold.ttf */; };
+		18E79D3A282E8804002A2B24 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18E79D36282E8804002A2B24 /* Poppins-Regular.ttf */; };
+		18E79D3B282E8804002A2B24 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18E79D37282E8804002A2B24 /* Poppins-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182EDADC28313EF800AB011A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		182EDADE2833700800AB011A /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		1876A6DA282D0B4E0012A2F4 /* LawPavillionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LawPavillionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1876A6DD282D0B4E0012A2F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1876A6DF282D0B4F0012A2F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,13 @@
 		1876A6FA282D0B510012A2F4 /* LawPavillionAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LawPavillionAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1876A6FE282D0B510012A2F4 /* LawPavillionAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawPavillionAppUITests.swift; sourceTree = "<group>"; };
 		1876A700282D0B510012A2F4 /* LawPavillionAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawPavillionAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1876A710282D0C6C0012A2F4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1876A712282D19DF0012A2F4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		18E79D32282E7D49002A2B24 /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewCell.swift; sourceTree = "<group>"; };
+		18E79D34282E8804002A2B24 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../Downloads/Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		18E79D35282E8804002A2B24 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../../Downloads/Poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		18E79D36282E8804002A2B24 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../../Downloads/Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		18E79D37282E8804002A2B24 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Light.ttf"; path = "../../../Downloads/Poppins/Poppins-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +117,15 @@
 		1876A6DC282D0B4E0012A2F4 /* LawPavillionApp */ = {
 			isa = PBXGroup;
 			children = (
+				18E79D34282E8804002A2B24 /* Poppins-Bold.ttf */,
+				18E79D37282E8804002A2B24 /* Poppins-Light.ttf */,
+				18E79D36282E8804002A2B24 /* Poppins-Regular.ttf */,
+				18E79D35282E8804002A2B24 /* Poppins-SemiBold.ttf */,
+				18E79D31282E7D14002A2B24 /* TableViewCells */,
+				1876A70F282D0C4A0012A2F4 /* Miscellaneous */,
+				1876A70D282D0B940012A2F4 /* Controllers */,
 				1876A6DD282D0B4E0012A2F4 /* AppDelegate.swift */,
 				1876A6DF282D0B4F0012A2F4 /* SceneDelegate.swift */,
-				1876A6E1282D0B4F0012A2F4 /* ViewController.swift */,
 				1876A6E3282D0B4F0012A2F4 /* Main.storyboard */,
 				1876A6E6282D0B500012A2F4 /* Assets.xcassets */,
 				1876A6E8282D0B500012A2F4 /* LaunchScreen.storyboard */,
@@ -125,6 +149,33 @@
 				1876A700282D0B510012A2F4 /* LawPavillionAppUITestsLaunchTests.swift */,
 			);
 			path = LawPavillionAppUITests;
+			sourceTree = "<group>";
+		};
+		1876A70D282D0B940012A2F4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1876A6E1282D0B4F0012A2F4 /* ViewController.swift */,
+				1876A712282D19DF0012A2F4 /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1876A70F282D0C4A0012A2F4 /* Miscellaneous */ = {
+			isa = PBXGroup;
+			children = (
+				1876A710282D0C6C0012A2F4 /* Extensions.swift */,
+				182EDADC28313EF800AB011A /* Constants.swift */,
+				182EDADE2833700800AB011A /* Reachability.swift */,
+			);
+			path = Miscellaneous;
+			sourceTree = "<group>";
+		};
+		18E79D31282E7D14002A2B24 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				18E79D32282E7D49002A2B24 /* ResultsTableViewCell.swift */,
+			);
+			path = TableViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +282,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E79D3B282E8804002A2B24 /* Poppins-Light.ttf in Resources */,
+				18E79D39282E8804002A2B24 /* Poppins-SemiBold.ttf in Resources */,
 				1876A6EA282D0B500012A2F4 /* LaunchScreen.storyboard in Resources */,
 				1876A6E7282D0B500012A2F4 /* Assets.xcassets in Resources */,
+				18E79D3A282E8804002A2B24 /* Poppins-Regular.ttf in Resources */,
 				1876A6E5282D0B4F0012A2F4 /* Main.storyboard in Resources */,
+				18E79D38282E8804002A2B24 /* Poppins-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +313,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1876A713282D19DF0012A2F4 /* HomeViewController.swift in Sources */,
 				1876A6E2282D0B4F0012A2F4 /* ViewController.swift in Sources */,
+				18E79D33282E7D49002A2B24 /* ResultsTableViewCell.swift in Sources */,
 				1876A6DE282D0B4E0012A2F4 /* AppDelegate.swift in Sources */,
+				182EDADD28313EF800AB011A /* Constants.swift in Sources */,
 				1876A6E0282D0B4F0012A2F4 /* SceneDelegate.swift in Sources */,
+				182EDADF2833700800AB011A /* Reachability.swift in Sources */,
+				1876A711282D0C6C0012A2F4 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +506,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +534,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
