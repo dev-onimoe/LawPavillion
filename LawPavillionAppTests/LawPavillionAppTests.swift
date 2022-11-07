@@ -10,19 +10,17 @@ import XCTest
 
 class LawPavillionAppAsyncTests: XCTestCase {
 
-    func testGettingNamesSuccessfully() {
+    func testNetworkCall() {
         
         let exp = expectation(description: "Got github name lists")
         
         let queryString = "dev"
-        guard let url = URL(string: Constants.url + queryString)else {return}
-        let session = URLSession.shared.dataTask(with: url, completionHandler: {data, response, error in
+        Network.shared.makeCall(page: 1, queryString: "dev", completion: {response in
             
-            XCTAssertNil(error)
-            XCTAssertNotNil(data)
+            XCTAssertNotNil(response.object)
+            XCTAssertTrue(response.successful)
             exp.fulfill()
-            
-        }).resume()
+        })
         wait(for: [exp], timeout: 5.0)
     }
     

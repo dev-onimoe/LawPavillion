@@ -118,6 +118,14 @@ extension UIView {
             self.layer.shadowOpacity = 0.2
             
         }
+    
+    func centreHorizontally(view : UIView, y : Double, height : Double, width: Double) {
+        
+        view.frame = CGRect(x: (frame.width/2.0) - (width/2.0), y: y, width: width, height: height)
+        
+        addSubview(view)
+        
+    }
 }
 
 extension UIColor {

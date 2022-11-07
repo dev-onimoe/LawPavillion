@@ -20,11 +20,19 @@
 		1876A701282D0B510012A2F4 /* LawPavillionAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876A700282D0B510012A2F4 /* LawPavillionAppUITestsLaunchTests.swift */; };
 		1876A711282D0C6C0012A2F4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876A710282D0C6C0012A2F4 /* Extensions.swift */; };
 		1876A713282D19DF0012A2F4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876A712282D19DF0012A2F4 /* HomeViewController.swift */; };
+		189235BC2917A53E00E4F139 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189235BB2917A53400E4F139 /* Poppins-Bold.ttf */; };
+		189235BE2917A54500E4F139 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189235BA2917A53400E4F139 /* Poppins-Regular.ttf */; };
+		189235BF2917A54900E4F139 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189235B92917A53400E4F139 /* Poppins-SemiBold.ttf */; };
+		189235C22917AFCD00E4F139 /* HomeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189235C12917AFCD00E4F139 /* HomeUI.swift */; };
+		189235C42917B45A00E4F139 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189235C32917B45A00E4F139 /* Observable.swift */; };
+		189235C62917B49000E4F139 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189235C52917B49000E4F139 /* Network.swift */; };
+		189235C82917C76700E4F139 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189235C72917C76700E4F139 /* HomeViewModel.swift */; };
+		189235CB2917D77E00E4F139 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189235CA2917D77E00E4F139 /* User.swift */; };
+		189235CC2917D96A00E4F139 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189235B82917A53400E4F139 /* Poppins-Light.ttf */; };
 		18E79D33282E7D49002A2B24 /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E79D32282E7D49002A2B24 /* ResultsTableViewCell.swift */; };
-		18E79D38282E8804002A2B24 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18E79D34282E8804002A2B24 /* Poppins-Bold.ttf */; };
-		18E79D39282E8804002A2B24 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18E79D35282E8804002A2B24 /* Poppins-SemiBold.ttf */; };
-		18E79D3A282E8804002A2B24 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18E79D36282E8804002A2B24 /* Poppins-Regular.ttf */; };
-		18E79D3B282E8804002A2B24 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18E79D37282E8804002A2B24 /* Poppins-Light.ttf */; };
+		2F867E8A41F957D307701ECA /* Pods_LawPavillionApp_LawPavillionAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B5701AC0869906B9E4E08C /* Pods_LawPavillionApp_LawPavillionAppUITests.framework */; };
+		558603CD1A49B924C98B123B /* Pods_LawPavillionAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A963392AB1D069AC3E037C4 /* Pods_LawPavillionAppTests.framework */; };
+		BC34FFFC5B3F8BE42EC8AAEF /* Pods_LawPavillionApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2C22D4112AC9E2A0FC8988 /* Pods_LawPavillionApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,11 +70,25 @@
 		1876A700282D0B510012A2F4 /* LawPavillionAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawPavillionAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1876A710282D0C6C0012A2F4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1876A712282D19DF0012A2F4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		189235B82917A53400E4F139 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		189235B92917A53400E4F139 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		189235BA2917A53400E4F139 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		189235BB2917A53400E4F139 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		189235C12917AFCD00E4F139 /* HomeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUI.swift; sourceTree = "<group>"; };
+		189235C32917B45A00E4F139 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		189235C52917B49000E4F139 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		189235C72917C76700E4F139 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		189235CA2917D77E00E4F139 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		18E79D32282E7D49002A2B24 /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewCell.swift; sourceTree = "<group>"; };
-		18E79D34282E8804002A2B24 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../Downloads/Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
-		18E79D35282E8804002A2B24 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../../Downloads/Poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
-		18E79D36282E8804002A2B24 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../../Downloads/Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
-		18E79D37282E8804002A2B24 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Light.ttf"; path = "../../../Downloads/Poppins/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		1A963392AB1D069AC3E037C4 /* Pods_LawPavillionAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LawPavillionAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A9CC1B9EE0753CEB809EBD4 /* Pods-LawPavillionApp-LawPavillionAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LawPavillionApp-LawPavillionAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-LawPavillionApp-LawPavillionAppUITests/Pods-LawPavillionApp-LawPavillionAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F2C22D4112AC9E2A0FC8988 /* Pods_LawPavillionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LawPavillionApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		488A1DA2C7A441E8EB4A1442 /* Pods-LawPavillionAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LawPavillionAppTests.release.xcconfig"; path = "Target Support Files/Pods-LawPavillionAppTests/Pods-LawPavillionAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A3E74E944B700C4AABE4889 /* Pods-LawPavillionAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LawPavillionAppTests.debug.xcconfig"; path = "Target Support Files/Pods-LawPavillionAppTests/Pods-LawPavillionAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8EF98522282FF92860B95FB /* Pods-LawPavillionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LawPavillionApp.debug.xcconfig"; path = "Target Support Files/Pods-LawPavillionApp/Pods-LawPavillionApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AD8C700D3D40EDC9F97B2349 /* Pods-LawPavillionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LawPavillionApp.release.xcconfig"; path = "Target Support Files/Pods-LawPavillionApp/Pods-LawPavillionApp.release.xcconfig"; sourceTree = "<group>"; };
+		C8B5701AC0869906B9E4E08C /* Pods_LawPavillionApp_LawPavillionAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LawPavillionApp_LawPavillionAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3494E3437A38C426CB8C3D8 /* Pods-LawPavillionApp-LawPavillionAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LawPavillionApp-LawPavillionAppUITests.release.xcconfig"; path = "Target Support Files/Pods-LawPavillionApp-LawPavillionAppUITests/Pods-LawPavillionApp-LawPavillionAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC34FFFC5B3F8BE42EC8AAEF /* Pods_LawPavillionApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				558603CD1A49B924C98B123B /* Pods_LawPavillionAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F867E8A41F957D307701ECA /* Pods_LawPavillionApp_LawPavillionAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +126,8 @@
 				1876A6F3282D0B500012A2F4 /* LawPavillionAppTests */,
 				1876A6FD282D0B510012A2F4 /* LawPavillionAppUITests */,
 				1876A6DB282D0B4E0012A2F4 /* Products */,
+				B0AE70D8BB1969A9860A6CAC /* Pods */,
+				261424D4DC28EA7340A0027C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,10 +144,12 @@
 		1876A6DC282D0B4E0012A2F4 /* LawPavillionApp */ = {
 			isa = PBXGroup;
 			children = (
-				18E79D34282E8804002A2B24 /* Poppins-Bold.ttf */,
-				18E79D37282E8804002A2B24 /* Poppins-Light.ttf */,
-				18E79D36282E8804002A2B24 /* Poppins-Regular.ttf */,
-				18E79D35282E8804002A2B24 /* Poppins-SemiBold.ttf */,
+				189235B92917A53400E4F139 /* Poppins-SemiBold.ttf */,
+				189235BA2917A53400E4F139 /* Poppins-Regular.ttf */,
+				189235B82917A53400E4F139 /* Poppins-Light.ttf */,
+				189235BB2917A53400E4F139 /* Poppins-Bold.ttf */,
+				189235C92917D75600E4F139 /* Models */,
+				189235B32917A4E600E4F139 /* Fonts */,
 				18E79D31282E7D14002A2B24 /* TableViewCells */,
 				1876A70F282D0C4A0012A2F4 /* Miscellaneous */,
 				1876A70D282D0B940012A2F4 /* Controllers */,
@@ -155,7 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				1876A6E1282D0B4F0012A2F4 /* ViewController.swift */,
-				1876A712282D19DF0012A2F4 /* HomeViewController.swift */,
+				189235C02917AAF600E4F139 /* HomeView */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -166,8 +195,35 @@
 				1876A710282D0C6C0012A2F4 /* Extensions.swift */,
 				182EDADC28313EF800AB011A /* Constants.swift */,
 				182EDADE2833700800AB011A /* Reachability.swift */,
+				189235C32917B45A00E4F139 /* Observable.swift */,
+				189235C52917B49000E4F139 /* Network.swift */,
 			);
 			path = Miscellaneous;
+			sourceTree = "<group>";
+		};
+		189235B32917A4E600E4F139 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		189235C02917AAF600E4F139 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				1876A712282D19DF0012A2F4 /* HomeViewController.swift */,
+				189235C12917AFCD00E4F139 /* HomeUI.swift */,
+				189235C72917C76700E4F139 /* HomeViewModel.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		189235C92917D75600E4F139 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				189235CA2917D77E00E4F139 /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		18E79D31282E7D14002A2B24 /* TableViewCells */ = {
@@ -178,6 +234,30 @@
 			path = TableViewCells;
 			sourceTree = "<group>";
 		};
+		261424D4DC28EA7340A0027C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F2C22D4112AC9E2A0FC8988 /* Pods_LawPavillionApp.framework */,
+				C8B5701AC0869906B9E4E08C /* Pods_LawPavillionApp_LawPavillionAppUITests.framework */,
+				1A963392AB1D069AC3E037C4 /* Pods_LawPavillionAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0AE70D8BB1969A9860A6CAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8EF98522282FF92860B95FB /* Pods-LawPavillionApp.debug.xcconfig */,
+				AD8C700D3D40EDC9F97B2349 /* Pods-LawPavillionApp.release.xcconfig */,
+				3A9CC1B9EE0753CEB809EBD4 /* Pods-LawPavillionApp-LawPavillionAppUITests.debug.xcconfig */,
+				E3494E3437A38C426CB8C3D8 /* Pods-LawPavillionApp-LawPavillionAppUITests.release.xcconfig */,
+				8A3E74E944B700C4AABE4889 /* Pods-LawPavillionAppTests.debug.xcconfig */,
+				488A1DA2C7A441E8EB4A1442 /* Pods-LawPavillionAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,9 +265,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1876A704282D0B510012A2F4 /* Build configuration list for PBXNativeTarget "LawPavillionApp" */;
 			buildPhases = (
+				D6703B60591940CE8954D301 /* [CP] Check Pods Manifest.lock */,
 				1876A6D6282D0B4E0012A2F4 /* Sources */,
 				1876A6D7282D0B4E0012A2F4 /* Frameworks */,
 				1876A6D8282D0B4E0012A2F4 /* Resources */,
+				D9BD42F96D1504271695A9E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,6 +284,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1876A707282D0B510012A2F4 /* Build configuration list for PBXNativeTarget "LawPavillionAppTests" */;
 			buildPhases = (
+				70B154635F049219B220DA7B /* [CP] Check Pods Manifest.lock */,
 				1876A6EC282D0B500012A2F4 /* Sources */,
 				1876A6ED282D0B500012A2F4 /* Frameworks */,
 				1876A6EE282D0B500012A2F4 /* Resources */,
@@ -220,9 +303,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1876A70A282D0B510012A2F4 /* Build configuration list for PBXNativeTarget "LawPavillionAppUITests" */;
 			buildPhases = (
+				839EAEE3C5298EAE21549C1C /* [CP] Check Pods Manifest.lock */,
 				1876A6F6282D0B510012A2F4 /* Sources */,
 				1876A6F7282D0B510012A2F4 /* Frameworks */,
 				1876A6F8282D0B510012A2F4 /* Resources */,
+				BF6DA1F1F1AF8AF34905D1DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -282,13 +367,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E79D3B282E8804002A2B24 /* Poppins-Light.ttf in Resources */,
-				18E79D39282E8804002A2B24 /* Poppins-SemiBold.ttf in Resources */,
+				189235CC2917D96A00E4F139 /* Poppins-Light.ttf in Resources */,
 				1876A6EA282D0B500012A2F4 /* LaunchScreen.storyboard in Resources */,
 				1876A6E7282D0B500012A2F4 /* Assets.xcassets in Resources */,
-				18E79D3A282E8804002A2B24 /* Poppins-Regular.ttf in Resources */,
 				1876A6E5282D0B4F0012A2F4 /* Main.storyboard in Resources */,
-				18E79D38282E8804002A2B24 /* Poppins-Bold.ttf in Resources */,
+				189235BF2917A54900E4F139 /* Poppins-SemiBold.ttf in Resources */,
+				189235BC2917A53E00E4F139 /* Poppins-Bold.ttf in Resources */,
+				189235BE2917A54500E4F139 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,16 +393,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		70B154635F049219B220DA7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LawPavillionAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		839EAEE3C5298EAE21549C1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LawPavillionApp-LawPavillionAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF6DA1F1F1AF8AF34905D1DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LawPavillionApp-LawPavillionAppUITests/Pods-LawPavillionApp-LawPavillionAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LawPavillionApp-LawPavillionAppUITests/Pods-LawPavillionApp-LawPavillionAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LawPavillionApp-LawPavillionAppUITests/Pods-LawPavillionApp-LawPavillionAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6703B60591940CE8954D301 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LawPavillionApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9BD42F96D1504271695A9E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LawPavillionApp/Pods-LawPavillionApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LawPavillionApp/Pods-LawPavillionApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LawPavillionApp/Pods-LawPavillionApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1876A6D6282D0B4E0012A2F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189235CB2917D77E00E4F139 /* User.swift in Sources */,
 				1876A713282D19DF0012A2F4 /* HomeViewController.swift in Sources */,
 				1876A6E2282D0B4F0012A2F4 /* ViewController.swift in Sources */,
 				18E79D33282E7D49002A2B24 /* ResultsTableViewCell.swift in Sources */,
+				189235C22917AFCD00E4F139 /* HomeUI.swift in Sources */,
 				1876A6DE282D0B4E0012A2F4 /* AppDelegate.swift in Sources */,
+				189235C62917B49000E4F139 /* Network.swift in Sources */,
 				182EDADD28313EF800AB011A /* Constants.swift in Sources */,
+				189235C82917C76700E4F139 /* HomeViewModel.swift in Sources */,
+				189235C42917B45A00E4F139 /* Observable.swift in Sources */,
 				1876A6E0282D0B4F0012A2F4 /* SceneDelegate.swift in Sources */,
 				182EDADF2833700800AB011A /* Reachability.swift in Sources */,
 				1876A711282D0C6C0012A2F4 /* Extensions.swift in Sources */,
@@ -494,6 +687,7 @@
 		};
 		1876A705282D0B510012A2F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8EF98522282FF92860B95FB /* Pods-LawPavillionApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -522,6 +716,7 @@
 		};
 		1876A706282D0B510012A2F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD8C700D3D40EDC9F97B2349 /* Pods-LawPavillionApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -550,6 +745,7 @@
 		};
 		1876A708282D0B510012A2F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A3E74E944B700C4AABE4889 /* Pods-LawPavillionAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -569,6 +765,7 @@
 		};
 		1876A709282D0B510012A2F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 488A1DA2C7A441E8EB4A1442 /* Pods-LawPavillionAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -588,6 +785,7 @@
 		};
 		1876A70B282D0B510012A2F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A9CC1B9EE0753CEB809EBD4 /* Pods-LawPavillionApp-LawPavillionAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -605,6 +803,7 @@
 		};
 		1876A70C282D0B510012A2F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3494E3437A38C426CB8C3D8 /* Pods-LawPavillionApp-LawPavillionAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
